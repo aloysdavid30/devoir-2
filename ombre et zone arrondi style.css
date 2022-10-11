@@ -1,0 +1,39 @@
+.ombre1{
+    height: 250px;;
+    width: 15%;
+    margin:20px ;
+    background: #ddd;
+
+    box-shadow: 20px 50px 100px blue ;
+    border-radius: 16px 20px 40px;
+}
+
+.ombre2{
+    height: 250px;;
+    width: 20%;
+    margin:20px ;
+    background: #ddd;
+
+    box-shadow: 20px 50px 100px blue inset;
+    border-radius: 16px 20px 40px ;
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+}
+
+p{
+    font: 2em Arial; 
+    text-shadow: 2px 2px 10px purple ;
+
+}
+.degrade{
+    height: 250px;;
+    width: 20%;
+    margin:20px ;
+    background:green;
+    background: radial-gradient( green, red, yellow);
+    border-radius: 10px;
+    position: relative;
+    left: 600px;
+    bottom: 600px;
+}
